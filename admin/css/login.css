@@ -1,0 +1,16 @@
+.container{
+    border: 7px solid #29a710;
+    border-radius: 10px;
+    width: 500px;
+    padding: 100px;
+    margin: 30px;
+    margin-top: 10%;
+    margin-left: 33%;
+    background-color: rgb(237, 240, 236);   
+}
+input{
+    background-color: #2bb80e;
+}
+input:hover{
+    background-color: #30e70c;
+}

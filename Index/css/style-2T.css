@@ -1,0 +1,85 @@
+/*gridview of images*/
+
+#gridview {
+   text-align:center; 
+}
+
+div.image {
+    margin: 10px;
+    display: inline-block;
+}
+
+div.image img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+}
+
+div.image img:hover {
+    box-shadow: 0 5px 5px 0 rgba(0,0,0,0.32), 0 0 0 0px rgba(0,0,0,0.16);
+}
+
+.heading{    
+    padding: 10px 10px;
+    border-radius: 2px;
+    color: #FFF;
+    background: rgb(50, 226, 88);
+    margin-bottom:10px;
+    font-size: 1.5em;
+}
+#grid{
+    margin-bottom:30px;
+}
+
+h4{
+    font-size: 50px;
+}
+.FAQ{
+    margin-top: 30px;
+    font-size: 19px;
+}
+.FAQ-p{
+    margin: 10px;
+}
+.input-heading{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.main-container{
+    border-top: 5px solid;
+}
+
+.fontw{
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.button-cls{
+    margin-top: 20px;
+}
+
+.prod-button{
+    float: left;
+}
+
+/* Responsive Styles */
+
+@media screen and (min-width: 1224px) {
+    div.image {
+        width: 300px;
+    }
+}
+
+@media screen and (min-width: 1044px) and (max-width: 1224px) {
+    div.image {
+        width: 250px;
+    }
+}
+
+@media screen and (min-width: 845px) and (max-width: 1044px) {
+    div.image {
+        width: 200px;
+    }
+}
